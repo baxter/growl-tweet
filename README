@@ -1,3 +1,0 @@
-== Growl-tweet
-
-This is a really simple script that makes use of the twitter and growl gems to connect to twitter, do a search for mentions of the username in state.yml, and create a growl notification for each one.
