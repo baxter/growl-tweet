@@ -12,7 +12,7 @@ Dependencies
 Install
 -------
 
-1 Install growlnotify from the Growl disk image. 
-2 Install the bundler gem `gem install bundler`. 
-3 Run `bundle install`.
-4 Run `bundle exec ruby twitter.rb`
+1. Install growlnotify from the Growl disk image. 
+2. Install the bundler gem `gem install bundler`. 
+3. Run `bundle install`.
+4. Run `bundle exec ruby twitter.rb`
