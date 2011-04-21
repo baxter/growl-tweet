@@ -5,7 +5,7 @@ require 'growl'
 filename = 'state.yml'
 
 def profile_image(user, img_url)
-  if ! File.exist?(image_path(user)) || File.mtime(image_path(user)) < 7.days.ago
+  if ! File.exist?(image_path(user)) || File.mtime(image_path(user)) < Time.now - (24 * 60 * 60 * 7)
     download_image(user,img_url)
   end
   File.exist?(image_path(user)) ? image_path(user) : image_path(:default)
